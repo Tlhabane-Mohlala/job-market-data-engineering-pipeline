@@ -132,8 +132,6 @@ ORDER BY job_count DESC;
 ---
 
 ##  Use Cases
-
-### Step 1: Data Ingestion
 - Identify in-demand technical skills
 - Compare skill demand across job roles
 - Support career upskilling decisions
