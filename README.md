@@ -144,13 +144,14 @@ Serve as a foundation for ML-based trend analysis
 
 ## Future Enhancements
 
-Automate daily data ingestion
+- 'Automate daily data ingestion'
 
-Add salary trend analysis
+-  'Add salary trend analysis'
 
-Build interactive Power BI dashboards
+-  'Build interactive Power BI dashboards'
 
-Deploy the pipeline on AWS or GCP
+-  'Deploy the pipeline on AWS or GCP'
 
-Add machine learning models for demand prediction
+-  'Add machine learning models for demand prediction'
 
+--
