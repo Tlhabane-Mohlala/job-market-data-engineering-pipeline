@@ -15,7 +15,6 @@ FROM jobs_adzuna
 GROUP BY search_term;
 
 --Jobs by location
-
 SELECT
   location,
   COUNT(DISTINCT job_id) AS job_count
