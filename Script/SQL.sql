@@ -1,3 +1,4 @@
+--Demanding Jobs/Skills
 SELECT
   skill,
   COUNT(*) AS demand
@@ -6,15 +7,14 @@ GROUP BY skill
 ORDER BY demand DESC
 LIMIT 20;
 
-**### Jobs by role
-
+--Jobs by role
 SELECT
   search_term,
   COUNT(DISTINCT job_id) AS job_count
 FROM jobs_adzuna
 GROUP BY search_term;
 
-### Jobs by location
+--Jobs by location
 
 SELECT
   location,
