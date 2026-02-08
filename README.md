@@ -128,30 +128,19 @@ GROUP BY location
 ORDER BY job_count DESC;
 
 ---
-## Use Cases
-
-Identify in-demand technical skills
-
-Compare skill demand across job roles
-
-Support career upskilling decisions
-
-Enable Power BI dashboards
-
-Serve as a foundation for ML-based trend analysis
 
 ---
 
-## Future Enhancements
+##  Use Cases
 
-- 'Automate daily data ingestion'
+### Step 1: Data Ingestion
+- Identify in-demand technical skills
+- Compare skill demand across job roles
+- Support career upskilling decisions
+- Enable Power BI dashboards
+- Serve as a foundation for ML-based trend analysis
 
--  'Add salary trend analysis'
+##  Future Enhancements
+- Automate daily data ingestion
+- Add salary trend analysisarning models for demand prediction
 
--  'Build interactive Power BI dashboards'
-
--  'Deploy the pipeline on AWS or GCP'
-
--  'Add machine learning models for demand prediction'
-
---
