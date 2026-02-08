@@ -1,6 +1,6 @@
-# 🚀 Job Market Data Engineering Pipeline
+# Job Market Data Engineering Pipeline
 
-## 📌 Overview
+## Overview
 This project is an **end-to-end Data Engineering pipeline** built using **Databricks, Apache Spark, and Delta Lake**.  
 It ingests live job-market data from an external API, processes and transforms the data at scale, and stores analytics-ready tables for SQL, BI, and future machine learning use cases.
 
@@ -8,7 +8,7 @@ The project focuses on **real-world data engineering concepts** such as API inge
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 The purpose of this project is to:
 - Collect real job-market data from an external source
 - Extract and standardize required technical skills
@@ -22,7 +22,7 @@ This project helps answer questions like:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 External Job API (Adzuna)
 ↓
 Python API Ingestion
@@ -36,7 +36,7 @@ SQL / Power BI / Analytics
 
 ---
 
-**## 🧰 Tech Stack
+**## Tech Stack
 - **Python**
 - **Databricks**
 - **Apache Spark (PySpark)**
@@ -49,7 +49,7 @@ SQL / Power BI / Analytics
 
 ---
 
-## 🔄 Pipeline Steps
+##  Pipeline Steps
 
 ### Step 1: Data Ingestion
 - Job postings are fetched from the Adzuna API using Python
@@ -73,9 +73,9 @@ SQL / Power BI / Analytics
 
 ---
 
-## 🗃️ Data Tables
+## Data Tables
 
-### 1️⃣ `jobs_adzuna`
+### Jobs_adzuna
 Main job-level table containing:
 - `job_id`
 - `title`
@@ -85,7 +85,7 @@ Main job-level table containing:
 - `search_term`
 - `skills` (comma-separated)
 
-### 2️⃣ `jobs_adzuna_skills`
+### Jobs_adzuna_skills
 Normalized skills table (one skill per row):
 - `job_id`
 - `title`
@@ -98,7 +98,7 @@ This design enables efficient analytics and reporting.
 
 ---
 
-## 🔍 Example SQL Analysis
+##  Example SQL Analysis
 
 ### Top skills in demand
 ```sql
@@ -126,7 +126,10 @@ SELECT
 FROM jobs_adzuna
 GROUP BY location
 ORDER BY job_count DESC;
-## 📈 Use Cases
+
+---
+## Use Cases
+
 Identify in-demand technical skills
 
 Compare skill demand across job roles
@@ -137,7 +140,9 @@ Enable Power BI dashboards
 
 Serve as a foundation for ML-based trend analysis
 
-## 🚀 Future Enhancements
+---
+
+## Future Enhancements
 
 Automate daily data ingestion
 
