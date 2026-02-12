@@ -8,8 +8,8 @@ import pandas as pd
 from datetime import datetime
 
 # ---- KEYS ----
-APP_ID = "99vfecb0"
-APP_KEY = "87828c8733d706d2ce570cb7eeda1fa"
+APP_ID = "123"
+APP_KEY = "123"
 
 # ---- PROJECT SETTINGS ----
 COUNTRY = "za"                 # South Africa
