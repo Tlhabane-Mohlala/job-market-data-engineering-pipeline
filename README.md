@@ -36,7 +36,7 @@ SQL / Power BI / Analytics
 
 ---
 
-**## Tech Stack
+## Tech Stack
 - **Python**
 - **Databricks**
 - **Apache Spark (PySpark)**
